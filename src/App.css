@@ -15,13 +15,12 @@
   padding: 2rem 1.5rem;
 }
 
-/* Header Component */
+/* Header Component with Red Gradient Background */
 .site-header {
-  background-color: #ffffff;
-  border-top: 4px solid var(--primary-red);
-  color: var(--text-dark);
-  padding: 1rem 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(135deg, #e31e24 0%, #b7151b 100%);
+  color: #ffffff;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(227, 30, 36, 0.2);
 }
 
 .header-container {
@@ -40,14 +39,14 @@
 
 .logo-badge {
   font-size: 1.6rem;
-  background-color: #fff5f5;
+  background-color: rgba(255, 255, 255, 0.2);
   width: 42px;
   height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  border: 1px solid rgba(227, 30, 36, 0.15);
+  backdrop-filter: blur(4px);
 }
 
 .site-title {
@@ -55,23 +54,23 @@
   font-weight: 800;
   letter-spacing: -0.02em;
   margin: 0;
-  color: #1a1a1a;
+  color: #ffffff;
 }
 
 .title-highlight {
-  color: var(--primary-red);
+  color: #ffcccc;
 }
 
 .header-tagline {
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* Header Responsive (stacks on mobile) */
 @media (max-width: 599px) {
   .site-header {
-    padding: 0.85rem 1rem;
+    padding: 1rem 1rem;
   }
 
   .header-container {
@@ -391,12 +390,13 @@
   color: var(--primary-red);
 }
 
-/* Footer Component */
+/* Footer Component with Red Gradient Background */
 .site-footer {
-  background-color: var(--primary-red);
+  background: linear-gradient(135deg, #e31e24 0%, #b7151b 100%);
   color: #ffffff;
   padding: 1.75rem 1.5rem;
   margin-top: auto;
+  box-shadow: 0 -4px 12px rgba(227, 30, 36, 0.15);
 }
 
 .footer-container {

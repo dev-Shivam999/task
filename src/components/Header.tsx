@@ -1,6 +1,6 @@
 import React from 'react';
 
-/** Header component displaying site branding with a smooth red gradient background. */
+/** Header component displaying site branding with a red gradient background. */
 export default function Header(): React.ReactElement {
   return (
     <header className="site-header">
