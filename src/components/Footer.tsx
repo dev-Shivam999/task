@@ -1,6 +1,6 @@
 import React from 'react';
 
-/** Footer component displaying copyright information and quick links with a gradient background. */
+/** Footer component displaying copyright information and quick links with a solid red background (no gradient). */
 export default function Footer(): React.ReactElement {
   return (
     <footer className="site-footer">
